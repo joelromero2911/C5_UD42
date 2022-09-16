@@ -1,5 +1,6 @@
 <div *ngIf="characters!=null; else espera">
-  <div class="mb-2">
+  <!-- <div class="mb-2" *ngIf="user.roles[0].name == 'ADMIN'"> -->
+    <div class="mb-2">
     &nbsp;&nbsp;<button routerLink="/add" class="btn btn-primary">Add character</button>&nbsp;
     <button (click)="deleteAllCharacters()" class="btn btn-danger">Delete All</button>
   </div>

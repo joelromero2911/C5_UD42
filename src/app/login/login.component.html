@@ -20,6 +20,12 @@
                   <button class="btn btn-info btn-md btn-custom mt-1" (click)="checkLogin()">Enviar</button>
                 </div>
               </div>
+              <div class="col-6">
+                <div id="register-link" class="text-right">
+                  <a routerLink="/register" class="textInfo">Registrarse</a>
+                  <div class="centrar" *ngIf="cargando">Esta el heroku sleeping, espera unos segundos....</div>
+                </div>
+              </div>
             </div>
           </form>
         </div>
