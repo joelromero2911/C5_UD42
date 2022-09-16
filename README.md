@@ -1,4 +1,4 @@
-# https://main.ddsijlaf1410j.amplifyapp.com/home/characters  
+
 
 # C5UD41
 
