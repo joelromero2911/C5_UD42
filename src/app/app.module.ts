@@ -14,6 +14,8 @@ import { AddCharacterComponent } from './add-character/add-character.component';
 import { RouterModule } from '@angular/router';
 import { EditComponent } from './edit/edit.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FormsModule } from '@angular/forms';
     AboutUsComponent,
     VerDetallesComponent,
     AddCharacterComponent,
-    EditComponent
+    EditComponent,
+    LoginComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
