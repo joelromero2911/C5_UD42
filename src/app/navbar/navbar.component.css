@@ -1,0 +1,49 @@
+.borde{
+  border-left: 1px solid rgb(211, 211, 211);
+}
+
+.nav-link:hover{
+  background-color: #fdfdfd33;
+  border: none;
+  color: black;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.redes{
+  font-size: 25px;
+  color: white;
+}
+
+.user{
+  font-size: 25px;
+  color: white;
+  margin-left: 25px;
+}
+
+.redes:hover{
+  color: rgb(0, 43, 122);
+}
+
+.boton{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.boton:hover{
+  background-color: gray;
+
+}
+
+.navbar{
+  background-color: rgb(28, 31, 36);
+}

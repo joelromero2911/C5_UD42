@@ -1,0 +1,12 @@
+<div class="card m-2" style="width: 24rem;">
+  <img class="card-img-top" src="{{ character.image }}" alt="Imagen {{ character.name }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ character.name }}</h5>
+    <h6>Status: {{ character.status }}</h6>
+    <h6>species: {{ character.species }}</h6>
+    <h6>gender: {{ character.gender }}</h6>
+    <h6>origin: {{ character.origin }}</h6>
+  </div>
+</div>
+
+<ng-template #espera>Esperando datos...</ng-template>

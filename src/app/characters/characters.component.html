@@ -1,0 +1,20 @@
+<div *ngIf="characters!=null; else espera">
+  <div class="mb-2">
+    &nbsp;&nbsp;<button routerLink="/add" class="btn btn-primary">Add character</button>&nbsp;
+    <button (click)="deleteAllCharacters()" class="btn btn-danger">Delete All</button>
+  </div>
+  <div *ngFor="let char of characters" class="inlineBlock">
+
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="{{ char.image }}" alt="Imagen {{ char.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ char.name }}</h5>
+          <a routerLink="/ver-detalles/{{ char.id }}" class="btn btn-primary">Ver detalles</a>&nbsp;
+          <a class="btn btn-danger" (click)="deleteCharacter( char.id )">Delete</a>&nbsp;
+          <a class="btn btn-success" routerLink="/edit/{{ char.id }}">Edit</a>
+        </div>
+      </div>
+
+  </div>
+</div>
+<ng-template #espera>Esperando datos...</ng-template>

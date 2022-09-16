@@ -1,0 +1,32 @@
+<div>
+  <div class="submit-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="character.name">
+    </div>
+    <div class="form-group">
+      <label for="status">status:</label>
+      <input type="text" class="form-control" id="status" required [(ngModel)]="character.status">
+    </div>
+    <div class="form-group">
+      <label for="species">species:</label>
+      <input type="text" class="form-control" id="species" required [(ngModel)]="character.species">
+    </div>
+    <div class="form-group">
+      <label for="gender">gender:</label>
+      <input type="text" class="form-control" id="gender" required [(ngModel)]="character.gender">
+    </div>
+    <div class="form-group">
+      <label for="origin">origin:</label>
+      <input type="text" class="form-control" id="origin" required [(ngModel)]="character.origin">
+    </div>
+    <div class="form-group">
+      <label for="image">image:</label>
+      <input type="text" class="form-control" id="image" required [(ngModel)]="character.image">
+    </div>
+
+    <button class="btn btn-success" (click)="updateCharacter()">Update</button>
+
+    <div *ngIf="submitted">Updated successfully</div>
+  </div>
+</div>
