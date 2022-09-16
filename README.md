@@ -1,5 +1,5 @@
 # https://main.d2a19dc3tab817.amplifyapp.com/  
-# username: joel  |  password: 1234
+# username: joel  |  password: 1234  or register  
 
 # C5UD42
 
