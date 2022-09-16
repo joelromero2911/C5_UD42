@@ -5,12 +5,22 @@ import { AddCharacterComponent } from './add-character/add-character.component';
 import { CharactersComponent } from './characters/characters.component';
 import { EditComponent } from './edit/edit.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { LogoutComponent } from './logout/logout.component';
 import { VerDetallesComponent } from './ver-detalles/ver-detalles.component';
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: 'characters', pathMatch: 'full'
+  },
+  {
+    path: 'logout',
+    component: LogoutComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   },
   {
     path: 'characters',
